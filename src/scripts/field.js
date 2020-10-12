@@ -1,3 +1,5 @@
 let plantArray = []
 
-export const addPlant = (seedObj) => {}
+export const addPlant = (seedObj) => {
+    plantArray.concat(seeObj)
+}
