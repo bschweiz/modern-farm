@@ -13,3 +13,5 @@ export const usePlants = () => {
     return newArray
 }
 
+import {plantSeeds} from "./tractor.js"
+
