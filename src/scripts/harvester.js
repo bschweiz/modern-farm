@@ -1,7 +1,15 @@
 
 export const harvestPlants = (plantsArray) => {
+    const newPlantArray = []
     for (const x of plantsArray) {
-        console.log(x.output)
-    } 
-    
+        if (x.type === "Corn") { 
+            for (let i = 0; i < 3; i++) {
+                newPlantArray.push(x);
+            }   
+        }
+        else { for (let i = 0; i < x.output; i++) {
+            newPlantArray.push(x);}
+        } 
+    }   
+    console.log(newPlantArray)
 }
