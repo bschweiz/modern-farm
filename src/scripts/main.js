@@ -38,12 +38,12 @@ import { createCorn } from "./seeds/corn.js"
 const cornSeed = createCorn()
 // console.log(cornSeed)
 
-addPlant(asparagusSeed)
-addPlant(soybeanSeed)
-addPlant(cornSeed)
+
 const test = usePlants()
 
 console.log(yearlyPlan);
 
 plantSeeds(yearlyPlan)
 
+
+console.log(test);
