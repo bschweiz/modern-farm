@@ -11,5 +11,5 @@ export const harvestPlants = (plantsArray) => {
             newPlantArray.push(x);}
         } 
     }   
-    console.log(newPlantArray)
+    return newPlantArray
 }

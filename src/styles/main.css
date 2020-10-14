@@ -3,10 +3,13 @@
 /*Typography
 --------------------------------------------------------------*/
 body,
+main,
 button,
 input,
 select,
 textarea {
+    display: flex;
+    flex-wrap: wrap;
 	color: #404040;
 	font-family: "Comfortaa", Arial, sans-serif;
 	font-size: 14px;
@@ -16,6 +19,22 @@ textarea {
 h1,h2,h3,h4,h5,h6 {
   font-family: "Patua One", serif;
   letter-spacing: 2px;
+}
+
+.coantainer {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.plant {
+    flex-basis: 22%;
+    display: flex;
+    background-color: darkseagreen;
+    flex-wrap: wrap;
+    justify-content: center;
+    border: 2px solid salmon;
+    padding: 2em 0;
+    margin: .5em;
 }
 
 .blue {
