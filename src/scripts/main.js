@@ -1,7 +1,7 @@
 console.log("Welcome to the main module")
 
 import { createPlan } from "./plan.js"
-import { addPlant, usePlants } from "./field.js";
+import { usePlants } from "./field.js";
 import { plantSeeds } from "./tractor.js"
 import { harvestPlants } from "./harvester.js"
 
@@ -32,4 +32,6 @@ console.log(yearlyPlan);
 plantSeeds(yearlyPlan);
 
 
-harvestPlants(test);
+const harvestToSell = harvestPlants(test);
+
+console.log(harvestToSell);
